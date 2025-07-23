@@ -1,4 +1,4 @@
-Banking System
+=> Banking System
 
 This project is a banking system implemented in C++. It allows bank managers to manage customers and accounts, while customers can perform various transactions such as deposits, withdrawals, and transfers.
 
@@ -13,3 +13,13 @@ Transaction: Represents a bank transaction with attributes like type and amount.
 Account: Represents a bank account with attributes like account number, customer, balance, and a list of transactions. It includes methods for depositing, withdrawing, transferring money, and displaying recent transactions.
 
 Bank: Represents the bank system. It manages customers and accounts, and provides methods for performing various operations like adding customers, opening accounts, deleting accounts, performing transactions, and displaying customer accounts.
+
+
+
+=> CGPA Calculation Program 
+
+This program that calculate the Cumulative Grade Point Average (CGPA) of multiple students based on their course grades and credit hours.It enables you to input student details, add courses, and then compute and display the CGPA for each student.
+
+CGPA Calculation: The program calculates the CGPA for each student based on the input grades and credit hours.
+
+Display Details: The program displays the student's name, individual course details (name, grade, credit hours), total credits, total grade points, and the CGPA.
