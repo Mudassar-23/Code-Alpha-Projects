@@ -4,22 +4,27 @@ This project is a banking system implemented in C++. It allows bank managers to 
 
 -> Features Manager Features Add Customer: Create a new customer. Open Account: Open a new bank account for an existing customer. Delete Account: Remove an existing bank account. View Customer Accounts: Display all accounts for a specific customer.
 
-Customer Features Add Money (Deposit): Deposit money into an account. Withdraw Money: Withdraw money from an account. Transfer Money: Transfer money between accounts. View Recent Transactions: Display recent transactions for an account. View Account Balance: Display the balance of an account.
-
--> Classes Customer: Represents a bank customer with attributes like name, address, phone, and PIN. It includes input and output operations for reading from and writing to streams.
-
-Transaction: Represents a bank transaction with attributes like type and amount. It includes a method to display the transaction details.
-
-Account: Represents a bank account with attributes like account number, customer, balance, and a list of transactions. It includes methods for depositing, withdrawing, transferring money, and displaying recent transactions.
-
-Bank: Represents the bank system. It manages customers and accounts, and provides methods for performing various operations like adding customers, opening accounts, deleting accounts, performing transactions, and displaying customer accounts.
-
-
 
 => CGPA Calculation Program 
-
 This program that calculate the Cumulative Grade Point Average (CGPA) of multiple students based on their course grades and credit hours.It enables you to input student details, add courses, and then compute and display the CGPA for each student.
 
 CGPA Calculation: The program calculates the CGPA for each student based on the input grades and credit hours.
 
 Display Details: The program displays the student's name, individual course details (name, grade, credit hours), total credits, total grade points, and the CGPA.
+
+
+=> Login and Registration System 
+
+This program is a login and registration system written in C++. It allows users to register by creating a username and password, and then log in using those credentials. User data is stored in a text file named database.txt.
+
+-> Features User Registration: Allows new users to register with a username and password. User Login: Allows registered users to log in with their credentials. Data Persistence: Stores user credentials in a text file (database.txt) to maintain data between sessions.
+
+-> Program Flow Menu Display: When the program starts, it displays a menu with three options: 1.Register 2.Login 3.Exit
+
+User Registration: The user is prompted to enter a username and password. The username and password are then stored in database.txt. If the registration is successful, a success message is displayed.
+
+User Login: The user is prompted to enter a username and password. The program checks if the credentials match any entry in database.txt. If the credentials are correct, a success message is displayed. Otherwise, an error message is shown. Exit: The user can choose to exit the program.
+
+
+
+
